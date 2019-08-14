@@ -1,0 +1,19 @@
+{
+  "name": "gmail_reg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t brfs profile-generator.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "brfs": "^2.0.2"
+  },
+  "dependencies": {
+    "weighted-random": "^0.1.0"
+  }
+}
