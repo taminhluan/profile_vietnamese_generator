@@ -14,6 +14,8 @@
     "brfs": "^2.0.2"
   },
   "dependencies": {
+    "diceware-password-generator": "^1.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.4",
     "weighted-random": "^0.1.0"
   }
 }
